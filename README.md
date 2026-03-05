@@ -8,7 +8,7 @@ Built with **Flask** · **SQLite** · **jugaad-data** · **yfinance** · **Chart
 
 ## About the Project
 
-**Golden Harbor** is a paper-trading web application that lets you practice stock trading risk-free using real-time NSE market data. Every user starts with a virtual balance of ₹1,00,000 and can buy/sell NIFTY 50 stocks, track their portfolio, and view historical OHLCV charts - all without spending a single real rupee.
+**Golden Harbor** is a paper-trading web application that lets you practice stock trading risk-free using real-time NSE market data. Every user starts with a virtual balance of ₹1,00,000 and can buy/sell NIFTY 50 stocks, track their portfolio - all without spending a single real rupee.
 
 The app is built entirely with Python (Flask) on the backend and vanilla JS + custom CSS on the frontend. No paid APIs or external services are required to get it running locally.
 
@@ -136,3 +136,4 @@ Open your browser at **http://127.0.0.1:3001**
 
 - Live NSE data is only available during **market hours** (Mon–Fri, 9:15 AM – 3:30 PM IST). Outside these hours, prices show last known values or `N/A`.
 - This app is for **educational / paper trading purposes only**. No real money is involved.
+
